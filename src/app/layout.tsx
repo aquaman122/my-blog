@@ -16,16 +16,15 @@ export default function RootLayout({
    <>
     <html lang='en'>
       <body>
-      <Providers>
-        <div className={NanumPenScript.className}>
-          <Header />
-        </div>
-
+      {/* <Providers> */}
+      <div className={NanumPenScript.className}>
+        <Header />
+      </div>
       {/* {body} */}
 
       {/* {nav} */}
       {children}
-      </Providers>
+      {/* </Providers> */}
       </body>
     </html>
    </>

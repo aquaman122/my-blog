@@ -1,4 +1,4 @@
-import DarkModeSwitch from './DarkModeSwitch';
+// import DarkModeSwitch from './DarkModeSwitch';
 
 type Props = {}
 
@@ -23,7 +23,7 @@ export default function Header({}: Props) {
         </div>
         <div className='flex'>
           <div className='m-3'>
-            <DarkModeSwitch />
+            {/* <DarkModeSwitch /> */}
           </div>
           <div className='m-3 text-xl'>
             menu

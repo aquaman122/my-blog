@@ -1,4 +1,4 @@
-// import DarkModeSwitch from './DarkModeSwitch';
+import DarkModeSwitch from './DarkModeSwitch';
 
 type Props = {}
 
@@ -10,7 +10,7 @@ export default function Header({}: Props) {
         <div className='m-3 text-xl'>
           icons
         </div>
-        <div className='flex-2 flex justify-between text-5xl font-normal'>
+        <div className='flex-2 flex justify-between text-5xl'>
           <div className='m-10 hover:text-gray-500'>
             개 발
           </div>
@@ -23,7 +23,7 @@ export default function Header({}: Props) {
         </div>
         <div className='flex'>
           <div className='m-3'>
-            {/* <DarkModeSwitch /> */}
+            <DarkModeSwitch />
           </div>
           <div className='m-3 text-xl'>
             menu
